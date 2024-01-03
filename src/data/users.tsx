@@ -1,10 +1,4 @@
-interface User {
-  id: number;
-  firstName: string;
-  lastName: string;
-  email: string;
-  password: string;
-}
+import {User} from 'interfaces/user';
 
 const users: User[] = [
     { id: 1, firstName: "Keyur", lastName: "Patel", email: "keyurpatel@example.com", password: "abc123" },

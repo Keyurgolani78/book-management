@@ -1,0 +1,63 @@
+.log-in-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.log-in-container {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.log-in-container h3 {
+    text-align: center;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+.sign-up-link p > a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(85, 26, 139);
+}
+
+.error-message {
+    color: red;
+}
