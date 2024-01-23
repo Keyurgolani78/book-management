@@ -2,6 +2,7 @@ import { Formik, Form, Field, ErrorMessage, FormikHelpers } from "formik";
 import "styles/registration.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "contexts/AuthProvider";
+import { UserRegistrationValues } from "@/interfaces/userRegistration";
 
 const initialValues = {
   firstName: "",
@@ -9,13 +10,6 @@ const initialValues = {
   email: "",
   password: "",
 };
-
-interface UserRegistrationValues {
-  firstName: string;
-  lastName: string;
-  email: string;
-  password: string;
-}
 
 const Registration = () => {
   const navigate = useNavigate();

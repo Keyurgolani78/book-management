@@ -1,10 +1,4 @@
-interface Book {
-  id: number;
-  title: string;
-  author: string;
-  publicationYear: number;
-  genre: string;
-}
+import { Book } from "@/interfaces/book";
 
 const books: Book[] = [
   {

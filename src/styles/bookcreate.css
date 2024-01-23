@@ -1,0 +1,74 @@
+.create-book-page {
+  background-color: #f4f4f4;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-book-container {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 25px;
+}
+
+.create-book-container h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.create-book-container .form-group {
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.create-book-container input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cancel-link {
+  text-align: center;
+}
+
+.cancel-link a {
+  color: #333;
+  text-decoration: none;
+}
+
+.cancel-link a:hover {
+  text-decoration: underline;
+}
