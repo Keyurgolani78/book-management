@@ -14,7 +14,6 @@ function Dashboard({
   const authContext = useAuth();
   const user = authContext?.user;
   const itemsPerPage = 10;
-  console.log(user);
 
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -26,9 +25,6 @@ function Dashboard({
     () => bookList.slice(indexOfFirstItem, indexOfLastItem),
     [indexOfFirstItem, indexOfLastItem, bookList]
   );
-
-  console.log("paginated", paginatedBooks);
-  console.log("current", currentPage);
 
   return (
     <>

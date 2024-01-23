@@ -48,7 +48,6 @@ const BookEdit = ({
   };
 
   const onSubmit = (values: Book) => {
-    console.log("Form submitted with values:", values);
     const indexToUpdate = bookList.findIndex(
       (book) => book.id === initialValues.id
     );
